@@ -1,6 +1,6 @@
 'use strict';
 
-console.log("BrainOok v0.2.1 (@CosasDePuma)");
+console.log("BrainOok v0.3.0 (@CosasDePuma)");
 
 if(!String.prototype.toOok) {
     String.prototype.toOok = function () {

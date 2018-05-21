@@ -1,6 +1,6 @@
 {
   "name": "brainook",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Translate your code from Brainfuck to Ook! and vice versa",
   "main": "src/brainook.js",
   "dependencies": {},
@@ -11,6 +11,9 @@
     "test": "npm run-script mocha",
     "mocha": "mocha --reporter nyan",
     "raw-test": "node test/test.js"
+  },
+  "bin": {
+    "brainook": "bin/brainook"
   },
   "repository": {
     "type": "git",
