@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const Brainfuck = require('../src/brainfucker');
+const Brainfuck = require('brainfucker');
 
 const exec = require('child_process').exec;
 let args = process.argv.slice(2);
