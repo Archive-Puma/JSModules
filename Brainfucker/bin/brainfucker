@@ -24,8 +24,9 @@ while (args.length) {
 }
 
 exec('cat ' + file, function (error, stdout) {
-  console.log(argv)
   var bf = new Brainfuck(stdout, argv.map(Number));
   console.debug('\n\x1b[7mRunning brainfuck code from ' + file + '\x1b[0m\n\n\x1b[2mOutput:\x1b[0m\n');
   bf.run();
+  console.log();
+  bf.compileTime();
 });
