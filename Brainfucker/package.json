@@ -1,12 +1,16 @@
 {
   "name": "brainfucker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Brainfuck interpreter",
   "main": "src/brainfucker.js",
   "scripts": {
     "test": "npm run-script raw-test",
     "raw-test": "node test/test.js",
     "mocha": "mocha --reporter nyan"
+  },
+  "bin": {
+    "brainfuck": "bin/brainfucker",
+    "brainfucker": "bin/brainfucker"
   },
   "repository": {
     "type": "git",
