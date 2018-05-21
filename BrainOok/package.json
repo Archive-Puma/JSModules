@@ -1,6 +1,6 @@
 {
   "name": "brainook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Translate your code from Brainfuck to Ook! and vice versa",
   "main": "src/brainook.js",
   "dependencies": {},
@@ -12,11 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CosasDePuma/JSModules"
+    "url": "https://github.com/CosasDePuma/JSModules/tree/master/BrainOok"
   },
   "keywords": [
     "ook!",
-    "brainfuck"
+    "esoteric",
+    "brainfuck",
+    "brainook"
   ],
   "author": "CosasDePuma",
   "license": "MIT"
