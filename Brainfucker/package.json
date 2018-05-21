@@ -1,0 +1,23 @@
+{
+  "name": "brainfucker",
+  "version": "0.1.0",
+  "description": "A Brainfuck interpreter",
+  "main": "src/brainfucker.js",
+  "scripts": {
+    "test": "npm run-script mocha",
+    "mocha": "mocha --reporter nyan",
+    "raw-test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CosasDePuma/JSModules/tree/master/Brainfucker"
+  },
+  "keywords": [
+    "brainfuck",
+    "esoteric",
+    "brainfucker"
+  ],
+  "author": "cosasdepuma <kikefontanlorenzo@gmail.com> (https://about.me/kikefontan)",
+  "license": "MIT",
+  "dependencies": {}
+}
