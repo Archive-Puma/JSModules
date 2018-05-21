@@ -1,6 +1,6 @@
 {
   "name": "brainfucker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Brainfuck interpreter",
   "main": "src/brainfucker.js",
   "scripts": {

@@ -3,7 +3,7 @@
 module.exports = class Brainfuck {
 
     constructor(code = '', args = undefined) {
-        console.log('Brainfucker v0.1.0 (@CosasDePuma)');
+        console.log('Brainfucker v0.2.0 (@CosasDePuma)');
 
         this.argv = args;
         this.code = code;
