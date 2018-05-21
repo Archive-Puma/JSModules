@@ -1,6 +1,6 @@
 'use strict';
 
-console.log("BrainOok v0.2.0 (@CosasDePuma)");
+console.log("BrainOok v0.2.1 (@CosasDePuma)");
 
 if(!String.prototype.toOok) {
     String.prototype.toOok = function () {
@@ -35,6 +35,6 @@ if(!String.prototype.toBrainfuck) {
                 default: cmds[i] = '';
             }
         }
-        return cmds.join('');
+        return (cmds !== null) ? cmds.join('') : this;
     }
 }
