@@ -1,0 +1,23 @@
+{
+  "name": "brainook",
+  "version": "0.1.0",
+  "description": "Translate your code from Brainfuck to Ook! and vice versa",
+  "main": "src/brainook.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run-script mocha",
+    "mocha": "mocha --reporter nyan",
+    "raw-test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CosasDePuma/JSModules"
+  },
+  "keywords": [
+    "ook!",
+    "brainfuck"
+  ],
+  "author": "CosasDePuma",
+  "license": "MIT"
+}
