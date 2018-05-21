@@ -4,7 +4,9 @@
   "description": "Translate your code from Brainfuck to Ook! and vice versa",
   "main": "src/brainook.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
   "scripts": {
     "test": "npm run-script mocha",
     "mocha": "mocha --reporter nyan",
