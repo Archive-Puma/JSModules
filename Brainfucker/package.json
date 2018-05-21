@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run-script raw-test",
     "raw-test": "node test/test.js",
-    "build": "babel src --out-dir build"
+    "mocha": "mocha --reporter nyan"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,6 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "mocha": "^5.2.0"
   }
 }
