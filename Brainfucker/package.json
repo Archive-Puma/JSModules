@@ -4,9 +4,9 @@
   "description": "A Brainfuck interpreter",
   "main": "src/brainfucker.js",
   "scripts": {
-    "test": "npm run-script mocha",
-    "mocha": "mocha --reporter nyan",
-    "raw-test": "node test/test.js"
+    "test": "npm run-script raw-test",
+    "raw-test": "node test/test.js",
+    "build": "babel src --out-dir build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   ],
   "author": "cosasdepuma <kikefontanlorenzo@gmail.com> (https://about.me/kikefontan)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "mocha": "^5.2.0"
+  }
 }
